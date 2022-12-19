@@ -1,0 +1,7 @@
+.cover__text {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    gap: 32px;
+}
