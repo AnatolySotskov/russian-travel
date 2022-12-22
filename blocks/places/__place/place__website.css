@@ -11,3 +11,17 @@
     align-self: flex-end;
     color: #AAAAAA;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        max-width: 456px;
+    }    
+  }
+
+  @media screen and (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+        margin: 0 0 20px;
+    }    
+  }
+
