@@ -1,7 +1,16 @@
 .cover__text {
-    margin: auto;
+    margin: 0 auto;
+    max-width: 560px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
     z-index: 99;
     gap: 32px;
 }
+
+
+
+
+
+

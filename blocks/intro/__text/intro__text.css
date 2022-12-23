@@ -16,4 +16,10 @@
     }    
   }
 
+  @media screen and (max-width: 320px) {
+    .intro__text {
+        max-width: 288px;
+    }    
+  }
+
   

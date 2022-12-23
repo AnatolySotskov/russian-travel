@@ -23,8 +23,16 @@
         max-width: 928px;
         grid-template-columns: auto auto;
         grid-gap: 16px;
-        margin: 0;
         padding: 0 24px 88px;
+    }    
+  }
+
+  @media screen and (max-width: 320px) {
+    .photo-grid {
+        max-width: 288px;
+        grid-template-columns: auto;
+        grid-gap: 12px;
+        padding: 0 16px 64px;
     }    
   }
 

@@ -1,15 +1,6 @@
 .place__website {
-    margin: 0;
+    margin: 106px 0 8px;
     max-width: 456px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    /* identical to box height, or 100% */
-    letter-spacing: 2px;
-    align-self: flex-end;
-    color: #AAAAAA;
 }
 
 @media screen and (max-width: 1024px) {
