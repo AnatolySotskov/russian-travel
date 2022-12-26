@@ -1,17 +1,25 @@
 .footer__copyright {
     margin: 0;
+    padding: 0;
+    justify-self: end;
+    align-self: end;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    ine-height: 16px;
-    /* identical to box height, or 114% */
+    line-height: 16px;
+    text-align: right;
     color: #FFFFFF;
-    align-self: end;
-    justify-self: end;
-}
-
-@media screen and (max-width: 320px) {
-    .footer__copyright  {
-        line-height: 14px;
-    }    
   }
+  
+
+
+  @media screen and (max-width: 320px) {
+    .footer__copyright {
+      justify-self: start;
+      align-self: center;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+
+  
