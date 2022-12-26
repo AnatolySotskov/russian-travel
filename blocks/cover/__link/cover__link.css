@@ -5,9 +5,13 @@
     background-size: cover;
     width: 100%;
     min-height: 740px;
-    /* opacity: .8; */
     position: relative;
     text-decoration: none;
+    transition: opacity .6s ease-in-out;
+}
+
+.cover__link:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 768px) {
