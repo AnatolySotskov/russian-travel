@@ -2,14 +2,15 @@
     margin: 92px auto 0;
     max-width: 1184px;
     display: grid;
-    grid-template-columns: 50px 57px 94px 86px 106px auto;
+    grid-template-columns: repeat(5, max-content) auto;
     gap: 18px;
     padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1024px) {
     .footer  {
-        max-width: 928px;
+      max-width: calc(928 / 1024 * 100%);
+        
     }    
   }
 
