@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template-columns: auto 30px 29px;
+  grid-template-columns: repeat(2, 1fr) auto;
   justify-items: end;
   align-items: end;
   gap: 18px;

@@ -1,13 +1,10 @@
 .header__logo {
-    justify-self: start;
-    align-self: start;
-  }
+  justify-self: start;
+  align-self: start;
+}
 
-  @media screen and (max-width: 320px) {
-    .header__logo {
+@media screen and (max-width: 320px) {
+  .header__logo {
     max-width: 142px;
-    }    
   }
-
-
-  
+}

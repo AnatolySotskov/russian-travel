@@ -9,8 +9,10 @@
 }
 
 .footer__link:hover {
-    opacity: 0.70;
+    opacity: 0.8;
 }
+
+
 
 @media screen and (max-width: 320px) {
     .footer__link  {

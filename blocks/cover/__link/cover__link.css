@@ -9,16 +9,7 @@
     text-decoration: none;
 }
 
-.cover__link:hover .cover__overlay {
-  opacity: 0.8;
-}
 
-@media screen and (max-width: 1024px) {
-  .cover__link  {
-      max-width: 1240px;
-
-  }    
-}
 
 @media screen and (max-width: 768px) {
     .cover__link  {

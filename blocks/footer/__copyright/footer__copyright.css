@@ -10,14 +10,18 @@
     text-align: right;
     color: #FFFFFF;
   }
+
   
+  @media screen and (max-width: 720px) {
+    .footer__copyright {
+      justify-self: start;
+    }
+  }
 
 
   @media screen and (max-width: 320px) {
     .footer__copyright {
-      justify-self: start;
       align-self: center;
-      font-size: 14px;
       line-height: 14px;
     }
   }

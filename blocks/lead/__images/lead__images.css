@@ -1,12 +1,11 @@
 .lead__images {
     margin: 0 auto;
     max-width: 984px;
-    width: 100%;   
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__images {
         max-width: 928px;
-        width: 100%;
-    }    
-  }
+    }
+}
